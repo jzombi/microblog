@@ -10,6 +10,7 @@ gem 'gravatar_image_tag'
 # gem 'rake', '0.8.7'
 gem 'rake'
 gem 'pg'
+gem 'will_paginate'
 
 
 group :development do
@@ -17,6 +18,7 @@ group :development do
 #  gem 'annotate', '2.4.0'
   gem 'rspec-rails'
   gem 'annotate'
+  gem 'faker'
 end
 
 group :test do
